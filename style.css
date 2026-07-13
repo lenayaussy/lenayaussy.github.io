@@ -310,4 +310,60 @@ transform:translateY(0);
 
 }
 
+
+    @media (max-width:700px) {
+
+
+h1 {
+
+font-size:42px;
+
+}
+
+
+nav a {
+
+margin:8px;
+
+font-size:14px;
+
+}
+
+
+.projects {
+
+justify-content:center;
+
+}
+
+
+.card {
+
+width:80%;
+
+}
+
+
+}
+
+body {
+
+letter-spacing:0.5px;
+
+}
+
+
+a {
+
+transition:0.3s;
+
+}
+
+
+a:hover {
+
+opacity:0.7;
+
+}
+
 }
