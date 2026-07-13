@@ -1,34 +1,165 @@
 body {
-    background-color: #111111;
-    color: #e8e8e8;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
+background:
+linear-gradient(
+rgba(10,10,12,0.92),
+rgba(10,10,12,0.96)
+),
+url("assets/background.jpg");
+
+background-size: cover;
+background-attachment: fixed;
+
+color:#e8e2dd;
+
+font-family: Arial, sans-serif;
+
+margin:0;
+
+line-height:1.7;
+
 }
 
-header {
-    text-align: center;
-    padding: 80px 20px;
+
+
+nav {
+
+position:fixed;
+
+top:0;
+
+width:100%;
+
+padding:20px;
+
+background:rgba(0,0,0,0.5);
+
+text-align:center;
+
 }
+
+
+
+nav a {
+
+color:#d7b0b8;
+
+text-decoration:none;
+
+margin:20px;
+
+font-size:16px;
+
+}
+
+
+
+nav a:hover {
+
+color:white;
+
+}
+
+
+
+.hero {
+
+text-align:center;
+
+padding:180px 20px 120px;
+
+}
+
+
 
 h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
-    letter-spacing: 3px;
+
+font-family: Georgia, serif;
+
+font-size:70px;
+
+letter-spacing:5px;
+
 }
+
+
 
 h2 {
-    color: #b0b0b0;
-    font-weight: normal;
+
+color:#b9828f;
+
+font-weight:normal;
+
 }
+
+
 
 section {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
+
+max-width:900px;
+
+margin:80px auto;
+
+padding:20px;
+
 }
 
-p {
-    font-size: 18px;
-    line-height: 1.6;
+
+
+.button {
+
+display:inline-block;
+
+margin-top:30px;
+
+padding:12px 30px;
+
+border:1px solid #b9828f;
+
+color:#e8e2dd;
+
+text-decoration:none;
+
+}
+
+
+
+.button:hover {
+
+background:#6b1f2b;
+
+}
+
+
+
+.projects {
+
+display:flex;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+}
+
+
+
+.card {
+
+background:#151519;
+
+border:1px solid #333;
+
+padding:25px;
+
+width:250px;
+
+}
+
+
+
+.card:hover {
+
+border-color:#b9828f;
+
 }
