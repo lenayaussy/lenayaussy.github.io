@@ -188,3 +188,48 @@ rgba(255,255,255,0.03)
 pointer-events:none;
 
 }
+
+.symbol {
+
+font-size:40px;
+
+color:#b9828f;
+
+margin-bottom:20px;
+
+}
+
+
+.hero p {
+
+max-width:600px;
+
+margin:20px auto;
+
+}
+
+
+
+.card span {
+
+display:block;
+
+margin-top:20px;
+
+font-size:14px;
+
+color:#b9828f;
+
+letter-spacing:1px;
+
+}
+
+
+
+.card h3 {
+
+font-family:Georgia, serif;
+
+font-size:26px;
+
+}
