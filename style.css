@@ -235,3 +235,17 @@ font-family:Georgia, serif;
 font-size:26px;
 
 }
+
+.divider {
+
+text-align:center;
+
+font-size:25px;
+
+color:#b9828f;
+
+margin-bottom:10px;
+
+opacity:0.75;
+
+}
