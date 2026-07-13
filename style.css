@@ -191,11 +191,13 @@ pointer-events:none;
 
 .symbol {
 
-font-size:40px;
+font-size:34px;
 
 color:#b9828f;
 
-margin-bottom:20px;
+margin-top:30px;
+
+opacity:0.8;
 
 }
 
