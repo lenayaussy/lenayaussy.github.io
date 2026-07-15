@@ -413,3 +413,65 @@ color:#b9828f;
 margin-bottom:15px;
 
 }
+ .contact-form {
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+max-width:500px;
+
+}
+
+
+
+.contact-form input,
+.contact-form textarea {
+
+background:rgba(20,20,25,0.8);
+
+border:1px solid rgba(255,255,255,0.15);
+
+padding:15px;
+
+color:white;
+
+font-size:16px;
+
+}
+
+
+
+.contact-form textarea {
+
+height:150px;
+
+}
+
+
+
+.contact-form button {
+
+width:fit-content;
+
+padding:12px 25px;
+
+background:none;
+
+border:1px solid rgba(255,255,255,0.3);
+
+color:white;
+
+cursor:pointer;
+
+}
+
+
+
+.contact-form button:hover {
+
+border-color:#b9828f;
+
+}
