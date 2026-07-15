@@ -367,3 +367,37 @@ opacity:0.7;
 }
 
 }
+
+.page {
+
+max-width:800px;
+
+margin:180px auto 80px;
+
+padding:20px;
+
+}
+
+
+
+.page h1 {
+
+font-family:Georgia, serif;
+
+font-size:60px;
+
+color:#e8e2dd;
+
+}
+
+
+
+.page p {
+
+font-size:18px;
+
+margin-bottom:30px;
+
+color:#d5d0cc;
+
+}
