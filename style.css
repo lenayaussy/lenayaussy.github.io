@@ -475,3 +475,17 @@ cursor:pointer;
 border-color:#b9828f;
 
 }
+
+.project-image {
+
+width:100%;
+
+max-width:900px;
+
+margin:40px auto;
+
+display:block;
+
+border-radius:10px;
+
+}
